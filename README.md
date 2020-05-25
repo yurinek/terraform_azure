@@ -22,10 +22,10 @@ Fill your Azure cloud credentials in the above file.
 
 To run automatically in CD/CI Pipelines alongside with creation of Ansible inventory and passing ip's of created vm's to this inventory:
 ```hcl
-run_terraform_wrapper.sh
+$ run_terraform_wrapper.sh
 ```
 
 For manual example runs see:
 ```hcl
-cat manual_run.sh
+$ cat manual_run.sh
 ```
