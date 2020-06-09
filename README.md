@@ -25,7 +25,12 @@ Fill your Azure cloud credentials in the above file.
 
 To run automatically in CD/CI Pipelines alongside with creation of Ansible inventory and passing ip's of created vm's to this inventory:
 ```hcl
-$ run_terraform_wrapper.sh
+# preview
+$ run_terraform_wrapper.sh -a demoapp2 -e staging -i 2 -r plan
+# create infrastructure
+$ run_terraform_wrapper.sh -a demoapp1 -e staging -i 2 -r apply
+# remove infrastructure
+$ run_terraform_wrapper.sh -a demoapp1 -e staging -i 2 -r destroy
 ```
 
 For manual example runs see:
