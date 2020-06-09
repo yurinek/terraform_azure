@@ -15,6 +15,7 @@ Some parts of the code of these modules are customized.
 
 ## How to install
 ```hcl
+# scripts expect this file to be 1 level above this repo, because it should contain some sensible data 
 $ cp terraform.tfvars ..
 ```
 Fill your Azure cloud credentials in the above file.
