@@ -1,6 +1,8 @@
 # terraform_azure
 
-The goals of this project are to automatically create virtual machines, resource groups, networks, subnets, private and public ips, nics and firewall rules in Azure Cloud using Terraform.
+## Goals of the project 
+
+Create virtual machines, resource groups, networks, subnets, private and public ips, nics and firewall rules in Azure Cloud using Terraform.
 
 
 Methods in creating the project were based on using existing modules placed under .terraform/modules which are pulled from:
