@@ -13,14 +13,14 @@ https://github.com/Azure/terraform-azurerm-vm
 Some parts of the code of these modules are customized.
 
 
-## How to install:
+## How to install
 ```hcl
 $ cp terraform.tfvars ..
 ```
 Fill your Azure cloud credentials in the above file.
 
 
-## How to run:
+## How to run
 
 To run automatically in CD/CI Pipelines alongside with creation of Ansible inventory and passing ip's of created vm's to this inventory:
 ```hcl
