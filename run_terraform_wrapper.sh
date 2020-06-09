@@ -73,7 +73,7 @@ fi
 # find relative repository path, in order to work on each workstation
 script=$(readlink -f "$0")
 repo_path=$(dirname "$script")
-ansible_repo=/home/yura/Documents/yuri_work/private_projects/devops/ansible/playbooks/postgres_in_docker
+ansible_repo=/your/path/to/ansible/playbooks/postgres_in_docker
 ansible_inventory_file=$ansible_repo/inventory_${ENVIRONMENT}/${APPNAME}_${ENVIRONMENT}
 ansible_host_group_dir=$ansible_repo/group_vars/${APPNAME}_${ENVIRONMENT}
 
